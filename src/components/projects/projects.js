@@ -9,7 +9,9 @@ class Projects extends React.Component {
     return (
       <div className="projects">
         <h2>Projects</h2>
-        <p>Projects</p>
+        <h3>Blue Bird Has Told Me</h3>
+        <p>print</p>
+        <a href="https://www.bluebirdhastoldme.com/">See the website</a>{" "}
       </div>
     );
   }

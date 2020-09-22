@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./style.scss";
 
 class Hello extends React.Component {
@@ -13,7 +15,10 @@ class Hello extends React.Component {
           Hello, my name is <span className="highlighting">Ana</span>
         </h1>
         <p className="subtitle">and I've done this website!</p>
-        <input type="button" value="more about me" />
+        <Link to="/about-me">
+          {" "}
+          <input type="button" value="more about me" />
+        </Link>
         <input type="button" value="Download my CV" />
       </div>
     );
