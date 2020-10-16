@@ -104,6 +104,7 @@ class Hello extends React.Component {
 
     ctx.strokeStyle = `rgba(255, 255, 255, ${shootingStar.opacity})`;
     ctx.stroke();
+    console.log("s", shootingStar);
   }
 
   drawStar(ctx, i) {
@@ -145,11 +146,23 @@ class Hello extends React.Component {
       mult = -1;
     }
 
+    // let random = this.randomizeNumber(100, this.state.canvasHeight, false);
+
     gsap.to(shootingStar, {
       duration: 4,
       ease: "sine.in",
-      x: shootingStar.x - 300 * Math.cos(shootingStar.angle) * mult,
-      y: shootingStar.y - 300 * Math.sin(shootingStar.angle) * mult,
+      // x: shootingStar.x - random * Math.cos(shootingStar.angle) * mult,
+      // y: shootingStar.y - random * Math.sin(shootingStar.angle) * mult,
+      x:
+        shootingStar.x -
+        this.randomizeNumber(100, this.state.canvasWidth, false) *
+          Math.cos(shootingStar.angle) *
+          mult,
+      y:
+        shootingStar.y -
+        this.randomizeNumber(100, this.state.canvasHeight, false) *
+          Math.sin(shootingStar.angle) *
+          mult,
       size: shootingStar.size,
       length: shootingStar.length + 10,
     });
