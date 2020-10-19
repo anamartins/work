@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomeView from "../../views/homeView/homeView";
 import AboutMe from "../../views/aboutMe/aboutMe";
+import Sky from "../../components/sky/sky";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,6 +13,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
+        <Sky constellation={300} />
+
         <Router>
           <Switch>
             <Route exact path="/">

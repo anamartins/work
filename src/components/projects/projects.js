@@ -1,4 +1,7 @@
 import React from "react";
+import SingleProject from "../singleProject/singleProject";
+
+import "./style.scss";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -9,9 +12,12 @@ class Projects extends React.Component {
     return (
       <div className="projects">
         <h2>Projects</h2>
-        <h3>Blue Bird Has Told Me</h3>
-        <p>print</p>
-        <a href="https://www.bluebirdhastoldme.com/">See the website</a>{" "}
+        <SingleProject
+          name="Blue Bird Has Told Me"
+          description="Animal Crossing"
+          url="https://www.bluebirdhastoldme.com/"
+          slug="blue-bird-has-told-me"
+        />
       </div>
     );
   }

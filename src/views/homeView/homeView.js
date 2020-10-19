@@ -16,7 +16,7 @@ class HomeView extends React.Component {
   render() {
     return (
       <div className="home">
-        <Sky constellation={300} />
+        {/* <Sky constellation={300} /> */}
 
         <Hello />
         <Skills />
