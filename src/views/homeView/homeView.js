@@ -2,7 +2,6 @@ import React from "react";
 import Hello from "../../components/hello/hello";
 import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";
-import BlogPosts from "../../components/blogPosts/blogPosts";
 import FindMe from "../../components/findMe/findMe";
 
 class HomeView extends React.Component {
