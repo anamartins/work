@@ -12,7 +12,6 @@ class Hello extends React.Component {
   render() {
     return (
       <div className="hello">
-        <Sky constellation={300} />
         <div className="content">
           <h1>
             Hello, my name is <span className="highlighting">Ana</span>
@@ -21,10 +20,10 @@ class Hello extends React.Component {
           <p className="subtitle">and I've done this website!</p>
           <Link to="/about-me">
             {" "}
-            <input type="button" value="more about me" />
+            <input type="button" value="more about me" className="hello-btn" />
           </Link>
 
-          <input type="button" value="Download my CV" />
+          <input type="button" value="Download my CV" className="hello-btn" />
         </div>
       </div>
     );

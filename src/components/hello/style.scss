@@ -1,12 +1,30 @@
 .hello {
+  position: relative;
   .content {
-    margin-top: 0;
-    padding: 2%;
-    margin: 0 2% 2% 2%;
+    .hello-btn {
+      background-color: #b0147d;
+      border: 1px solid #b0147d;
+      margin: 5px;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #fff;
+        color: #b0147d;
+        border: 1px solid #b0147d;
+      }
+    }
+
     .highlighting {
       background-color: #b0147d;
       padding-right: 0.2rem;
       padding-left: 0.2rem;
+      font-family: "Merriweather", serif;
     }
 
     .subtitle {
@@ -32,10 +50,9 @@
       }
     }
   }
-
-  .canvas {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-  }
+}
+.canvas {
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }

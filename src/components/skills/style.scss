@@ -1,0 +1,36 @@
+.skills {
+  position: relative;
+  .content {
+    display: flex;
+
+    .heart,
+    .tools,
+    .knowledge,
+    .languages {
+      width: 100%;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 5px;
+
+      .heart-list,
+      .tools-list,
+      .knowledge-list,
+      .languages-list {
+        list-style-type: none;
+        padding: 0;
+        li {
+          padding: 10px;
+          padding-left: 0;
+        }
+      }
+      .highlighting {
+        background-color: #b0147d;
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+        width: 100%;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import gsap from "gsap";
 import PropTypes from "prop-types";
+import "./style.scss";
 
 class Sky extends React.Component {
   constructor(props) {
