@@ -1,0 +1,14 @@
+.find-me {
+  margin-top: 10px;
+
+  .social-media {
+    display: flex;
+
+    .social-item {
+      margin: 10px;
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.scss";
 
 class FindMe extends React.Component {
   constructor(props) {
@@ -9,7 +10,18 @@ class FindMe extends React.Component {
     return (
       <div className="find-me">
         <h2>Find Me!</h2>
-        <p>Social Media</p>
+        <div className="social-media">
+          <div className="social-item">
+            <a href="https://github.com/anamartins" target="_blank">
+              <img src="./img/github-icon.png" />
+            </a>
+          </div>
+          <div className="social-item">
+            <a href="https://www.linkedin.com/in/anacmartins" target="_blank">
+              <img src="./img/linkedin-icon.png" />
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
