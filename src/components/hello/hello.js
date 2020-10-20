@@ -22,7 +22,9 @@ class Hello extends React.Component {
             <input type="button" value="more about me" className="hello-btn" />
           </Link>
 
-          <input type="button" value="Download my CV" className="hello-btn" />
+          <a href="https://www.linkedin.com/in/anacmartins/" target="_blank">
+            <input type="button" value="look my CV" className="hello-btn" />
+          </a>
         </div>
       </div>
     );

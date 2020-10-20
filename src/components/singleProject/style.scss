@@ -1,10 +1,18 @@
-.project {
+.single-project {
+  .single-project-name {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    color: #fff;
+    background-color: #b0147d;
+    padding: 5px;
+  }
   .printscreen {
     width: 50%;
     display: block;
   }
 
-  .project-btn {
+  .single-project-btn {
     background-color: #b0147d;
     border: 1px solid #b0147d;
     margin: 5px;

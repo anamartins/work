@@ -3,6 +3,7 @@ import "./style.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomeView from "../../views/homeView/homeView";
+import ProjectView from "../../views/projectView/projectView";
 import AboutMe from "../../views/aboutMe/aboutMe";
 import Sky from "../../components/sky/sky";
 
@@ -22,6 +23,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/about-me">
               <AboutMe />
+            </Route>
+            <Route exact path="/:slug">
+              <ProjectView />
             </Route>
           </Switch>
         </Router>

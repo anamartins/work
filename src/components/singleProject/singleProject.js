@@ -9,13 +9,13 @@ class SingleProject extends React.Component {
   }
   render() {
     return (
-      <div className="project">
-        <h3>{this.props.name}</h3>
+      <div className="single-project">
+        <h3 className="single-project-name">{this.props.name}</h3>
         <div className="image">
-          <a href={this.props.url} target="_blank">
+          <Link to={`/${this.props.slug}`}>
             <img className="printscreen" src={`./img/${this.props.slug}.png`} />
-            <input type="button" value="Go!" className="project-btn" />
-          </a>
+            <input type="button" value="Go!" className="single-project-btn" />
+          </Link>
         </div>
       </div>
     );
