@@ -1,15 +1,22 @@
 .single-project {
+  position: relative;
+  margin: 5px 10px 5px 0;
   .single-project-name {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 5px;
     color: #fff;
     background-color: #b0147d;
     padding: 5px;
   }
+  .single-project-description {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color: #000;
+  }
   .printscreen {
-    width: 50%;
-    display: block;
+    width: 550px;
   }
 
   .single-project-btn {
@@ -28,7 +35,7 @@
 
     position: absolute;
     bottom: 0;
-    right: 50%;
+    right: 1%;
 
     &:hover {
       background-color: #fff;
