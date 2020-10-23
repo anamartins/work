@@ -12,11 +12,16 @@ class Hello extends React.Component {
     return (
       <div className="hello">
         <div className="content">
-          <h1>
-            Hello, my name is <span className="highlighting">Ana</span>
+          <h1 className="hello-title">
+            Hello, my name is <span className="highlighting">Ana</span>,
           </h1>
 
-          <p className="subtitle">and I've done this website!</p>
+          <p className="subtitle">
+            a Brazilian frontend dev wannabe based in Amsterdam
+          </p>
+          <p className="subtitle">
+            and <span className="highlighting">I'm looking for a job</span>.
+          </p>
           <Link to="/about-me">
             {" "}
             <input type="button" value="more about me" className="hello-btn" />

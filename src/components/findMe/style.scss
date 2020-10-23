@@ -1,6 +1,10 @@
 .find-me {
   margin-top: 10px;
-
+  display: flex;
+  align-items: center;
+  .find-me-title {
+    font-size: 15px;
+  }
   .social-media {
     display: flex;
 

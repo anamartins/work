@@ -2,22 +2,24 @@
   position: relative;
   height: 250px;
   .content {
+    .hello-title {
+      padding: 15px 0 10px 0;
+    }
     .hello-btn {
-      background-color: #b0147d;
-      border: 1px solid #b0147d;
-      margin: 5px;
+      background-color: #fff;
+      border: 2px solid #fff;
+      margin: 10px 5px;
       padding: 15px;
       border-radius: 5px;
-      color: #fff;
-
+      color: #b0147d;
       font-size: 18px;
-      font-weight: bold;
+      font-family: "Merriweather", serif;
       cursor: pointer;
 
       &:hover {
-        background-color: #fff;
-        color: #b0147d;
-        border: 1px solid #b0147d;
+        background-color: #b0147d;
+        color: #fff;
+        border: 2px solid #b0147d;
       }
     }
 
@@ -30,6 +32,9 @@
 
     .subtitle {
       font-size: 20px;
+      margin: 5px;
+      line-height: 30px;
+      font-family: "Merriweather", serif;
     }
 
     .star {
@@ -51,9 +56,4 @@
       }
     }
   }
-}
-.canvas {
-  margin: 0;
-  padding: 0;
-  position: absolute;
 }

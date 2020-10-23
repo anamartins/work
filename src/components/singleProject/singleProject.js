@@ -10,17 +10,17 @@ class SingleProject extends React.Component {
   render() {
     return (
       <div className="single-project">
-        <h3 className="single-project-name">{this.props.name}</h3>
-        <p className="single-project-description">{this.props.description}</p>
-        <div className="image">
-          <Link to={`/${this.props.slug}`}>
-            <img
-              className="printscreen"
-              src={`../../img/${this.props.slug}.png`}
-            />
-            <input type="button" value="Go!" className="single-project-btn" />
-          </Link>
-        </div>
+        <Link to={`/${this.props.slug}`} className="single-project-content">
+          <div className="single-project-icon">
+            <img src="../../img/github-icon.png" />
+          </div>
+          <div className="single-project-info">
+            <h3 className="single-project-name">{this.props.name}</h3>
+            <p className="single-project-description">
+              {this.props.description}
+            </p>
+          </div>
+        </Link>
       </div>
     );
   }

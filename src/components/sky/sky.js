@@ -65,6 +65,10 @@ class Sky extends React.Component {
       this.sparkleStars();
     }, 500 / 30);
 
+    // setInterval(() => {
+    //   this.shootStar();
+    // });
+
     this.shootStar();
   }
 

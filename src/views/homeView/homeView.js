@@ -15,8 +15,8 @@ class HomeView extends React.Component {
     return (
       <div className="home">
         <Hello />
-        <Skills />
         <Projects />
+        <Skills />
         <FindMe />
       </div>
     );
