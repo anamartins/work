@@ -22,7 +22,7 @@ export default function ProjectView() {
 
     setIndex(index);
 
-    console.log("index", index);
+    // console.log("index", index);
   }
 
   useEffect(() => {

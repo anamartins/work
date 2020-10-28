@@ -1,6 +1,9 @@
 import React from "react";
 import gsap from "gsap";
 import PropTypes from "prop-types";
+// import p2 from "p2";
+// import Matter from "matter-js";
+
 import "./style.scss";
 
 class Sky extends React.Component {
@@ -55,6 +58,7 @@ class Sky extends React.Component {
 
     //defining the canvas space
     ctx.fillStyle = "transparent";
+
     ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
     setInterval(() => {
@@ -64,10 +68,6 @@ class Sky extends React.Component {
     setInterval(() => {
       this.sparkleStars();
     }, 500 / 30);
-
-    // setInterval(() => {
-    //   this.shootStar();
-    // });
 
     this.shootStar();
   }
