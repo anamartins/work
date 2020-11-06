@@ -1,7 +1,9 @@
 .project {
   padding: 2%;
-  margin: 0 2% 0 2%;
+  // margin: 0 2% 0 2%;
+  margin: 0 auto;
   position: relative;
+  width: 70%;
 
   .project-name {
     padding-top: 50px;
@@ -19,7 +21,7 @@
   .project-img {
     position: relative;
     img {
-      width: 60%;
+      width: 100%;
     }
     .single-project-btn {
       background-color: #b0147d;
@@ -37,7 +39,7 @@
 
       position: absolute;
       bottom: 5px;
-      left: 50%;
+      right: 5px;
 
       &:hover {
         background-color: #fff;
@@ -48,10 +50,21 @@
   }
 
   .project-all-text {
+    padding-top: 50px;
+    .website {
+      .website-link {
+        font-family: "Merriweather", serif;
+        font-size: 20px;
+        color: #fff;
+        &:hover {
+          background-color: #b0147d;
+        }
+      }
+    }
     .project-text {
-      // font-family: "Merriweather", serif;
       font-size: 18px;
-      line-height: 30px;
+      line-height: 200%;
+      padding-bottom: 20px;
     }
   }
 }

@@ -18,8 +18,6 @@ class Projects extends React.Component {
         description={project.description}
         url={project.url}
         slug={project.slug}
-        text={project.text}
-        stack={project.stack}
         soon={project.soon}
       />
     ));

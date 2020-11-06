@@ -32,7 +32,6 @@ export default function ProjectView() {
   return (
     <div className="project">
       <Header />
-
       <h1 className="project-name">{name}</h1>
 
       <div className="project-stack">
@@ -56,6 +55,12 @@ export default function ProjectView() {
             {paragraph}
           </p>
         ))}
+
+        <div className="website">
+          <a className="website-link" href={url} target="_blank">
+            Check out the website
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -5,14 +5,6 @@
   border: 1px solid #fff;
   border-radius: 5px;
   padding: 10px;
-  background-color: transparent;
-
-  cursor: pointer;
-
-  &:hover {
-    background-color: #b0147d;
-    border: 1px solid #b0147d;
-  }
 
   .single-project-content {
     display: flex;
@@ -41,34 +33,28 @@
 
       img {
         width: 50px;
-        margin-left: 3px;
+        margin-left: -3px;
         margin-top: 3px;
       }
     }
   }
+}
 
-  // .single-project-btn {
-  //   background-color: #b0147d;
-  //   border: 1px solid #b0147d;
-  //   margin: 5px;
-  //   padding: 15px;
-  //   border-radius: 100%;
-  //   color: #fff;
-  //   width: 80px;
-  //   height: 80px;
+.on {
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    background-color: #b0147d;
+    border: 1px solid #b0147d;
+  }
+}
 
-  //   font-size: 18px;
-  //   font-weight: bold;
-  //   cursor: pointer;
-
-  //   position: absolute;
-  //   bottom: 0;
-  //   right: 1%;
-
-  //   &:hover {
-  //     background-color: #fff;
-  //     color: #b0147d;
-  //     border: 1px solid #b0147d;
-  //   }
-  // }
+.soon {
+  background-color: #999;
+  opacity: 0.7;
+  cursor: auto;
+  .single-project-name-soon {
+    color: #fff;
+    padding: 5px;
+  }
 }

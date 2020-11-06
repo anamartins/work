@@ -24,7 +24,7 @@ export let projectsContent = [
   {
     slug: "sweater-math",
     name: "Sweater Math (Coming Soon)",
-    description: "How to knit a sweater and do the math",
+    description: "Do the Math and Knitting",
     url: "sweatermath",
     text:
       "Sweater Math Content, Sweater Math Content, Sweater Math Content, Sweater Math Content, Sweater Math Content, Sweater Math Content.",
