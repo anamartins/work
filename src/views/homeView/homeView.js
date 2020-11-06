@@ -3,7 +3,7 @@ import Hello from "../../components/hello/hello";
 import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";
 import FindMe from "../../components/findMe/findMe";
-import Astronaut from "../../components/astronaut/astronaut";
+import Astronaut from "../../../_astronaut/astronaut";
 
 import "./style.scss";
 
@@ -16,8 +16,6 @@ class HomeView extends React.Component {
     return (
       <div className="home">
         <Hello />
-        <Astronaut />
-
         <Projects />
         <Skills />
         <FindMe />

@@ -12,7 +12,9 @@ class SingleProject extends React.Component {
       <div className="single-project">
         <Link to={`/${this.props.slug}`} className="single-project-content">
           <div className="single-project-icon">
-            <img src="../../img/github-icon.png" />
+            <img
+              src={`../../img/project-icons/${this.props.slug}-icon-light.png`}
+            />
           </div>
           <div className="single-project-info">
             <h3 className="single-project-name">{this.props.name}</h3>
