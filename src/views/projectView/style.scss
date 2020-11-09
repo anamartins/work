@@ -4,6 +4,7 @@
   margin: 0 auto;
   position: relative;
   width: 70%;
+  color: #333;
 
   .project-name {
     padding-top: 50px;
@@ -16,6 +17,7 @@
       background-color: #b0147d;
       margin: 5px;
       padding: 5px;
+      color: #fff;
     }
   }
 
@@ -23,6 +25,7 @@
     position: relative;
     img {
       width: 100%;
+      border: 1px solid #999;
     }
     .single-project-btn {
       background-color: #b0147d;
@@ -56,7 +59,7 @@
       .website-link {
         font-family: "Merriweather", serif;
         font-size: 20px;
-        color: #fff;
+        color: #333;
         &:hover {
           color: #b0147d;
         }

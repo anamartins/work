@@ -15,7 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Sky constellation={300} />
+        {/* <Sky constellation={300} /> */}
 
         <Router>
           <Switch>

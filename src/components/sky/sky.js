@@ -10,7 +10,8 @@ class Sky extends React.Component {
     (this.stars = []),
       (this.state = {
         canvasWidth: window.innerWidth,
-        canvasHeight: 600,
+        // canvasHeight: 600,
+        canvasHeight: this.props.height,
       });
 
     this.ref = React.createRef();

@@ -4,6 +4,8 @@ import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";
 import FindMe from "../../components/findMe/findMe";
 
+import Sky from "../../components/sky/sky";
+
 import "./style.scss";
 
 class HomeView extends React.Component {
@@ -14,10 +16,13 @@ class HomeView extends React.Component {
   render() {
     return (
       <div className="home">
-        <Hello />
-        <Projects />
-        <Skills />
-        <FindMe />
+        <Sky constellation={300} height={600} />
+        <div className="wrapper">
+          <Hello />
+          <Projects />
+          <Skills />
+          <FindMe />
+        </div>
       </div>
     );
   }

@@ -11,9 +11,9 @@ class Skills extends React.Component {
       <div className="skills">
         <h2>Skills</h2>
         <div className="content">
-          <div className="knowledge">
+          <div className="development">
             <h3 className="skill-title">Development</h3>
-            <ul className="knowledge-list">
+            <ul className="development-list">
               <li>Javascript</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -31,9 +31,9 @@ class Skills extends React.Component {
             </ul>
           </div>
 
-          <div className="heart">
+          <div className="other">
             <h3 className="skill-title">Other Things</h3>
-            <ul className="heart-list">
+            <ul className="other-list">
               <li>Prototyping</li>
               <li>Usability Test Moderation</li>
               <li>Design Sprint</li>
