@@ -44,7 +44,7 @@ export default function ProjectView() {
 
       <div className="project-img">
         <a href={url} target="_blank">
-          <img src={`../../img/${slug}.png`} />
+          <img src={`../../img/project-part-screen/${slug}.png`} />
           <input type="button" value="Go!" className="single-project-btn" />
         </a>
       </div>
