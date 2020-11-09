@@ -11,6 +11,7 @@
 
   .project-stack {
     display: flex;
+    padding: 5px 0 30px 0;
     .element-stack {
       background-color: #b0147d;
       margin: 5px;
@@ -50,14 +51,14 @@
   }
 
   .project-all-text {
-    padding-top: 50px;
+    padding-top: 30px;
     .website {
       .website-link {
         font-family: "Merriweather", serif;
         font-size: 20px;
         color: #fff;
         &:hover {
-          background-color: #b0147d;
+          color: #b0147d;
         }
       }
     }
