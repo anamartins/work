@@ -1,5 +1,27 @@
 .about-me {
+  width: 60%;
+
+  padding: 5%;
+
   .about-me-title {
     padding-top: 60px;
+    color: #333;
+  }
+
+  .about-me-text {
+    padding-top: 30px;
+    color: #333;
+
+    .about-me-link {
+      color: #333;
+      &:hover {
+        color: #b0147d;
+      }
+    }
+    .about-me-paragraph {
+      font-size: 18px;
+      line-height: 200%;
+      padding-bottom: 20px;
+    }
   }
 }

@@ -17,11 +17,10 @@ class Hello extends React.Component {
           </h1>
 
           <p className="subtitle">
-            a Brazilian frontend dev wannabe based in Amsterdam
+            a Brazilian frontend dev wannabe based in Amsterdam and{" "}
+            <span className="highlighting">I'm looking for a job</span>.{" "}
           </p>
-          <p className="subtitle">
-            and <span className="highlighting">I'm looking for a job</span>.
-          </p>
+
           <Link to="/about-me">
             {" "}
             <input type="button" value="more about me" className="hello-btn" />

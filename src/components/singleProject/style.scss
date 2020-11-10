@@ -23,6 +23,7 @@
     .single-project-info {
       padding: 0px;
       width: 100%;
+      // position: relative;
       .single-project-name {
         z-index: 2;
         color: #fff;
@@ -31,7 +32,7 @@
         font-family: "Merriweather", serif;
         font-size: 25px;
         position: absolute;
-        top: 15%;
+        top: 25%;
       }
       .single-project-description {
         color: #fff;
