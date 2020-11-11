@@ -1,18 +1,15 @@
 .about-me {
   width: 100%;
-
-  padding: 2%;
+  padding: 2% 4% 2% 2%;
   .wrapper {
     display: flex;
+    flex-direction: column-reverse;
     .about-me-left {
-      width: 60%;
+      width: 100%;
     }
     .about-me-right {
-      width: 38%;
-      padding-top: 60px;
-      right: 1%;
-      position: fixed;
-
+      width: 100%;
+      padding-top: 10px;
       .about-me-photos {
         img {
           width: 100%;
@@ -40,6 +37,56 @@
       font-size: 18px;
       line-height: 200%;
       padding-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 550px) {
+  .about-me {
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+
+      .about-me-left {
+        width: 60%;
+      }
+      .about-me-right {
+        width: 40%;
+        padding-top: 40px;
+        right: 1%;
+        position: fixed;
+
+        .about-me-photos {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 850px) {
+  .about-me {
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+
+      .about-me-left {
+        width: 60%;
+      }
+      .about-me-right {
+        width: 38%;
+        padding-top: 45px;
+        right: 1%;
+        position: fixed;
+
+        .about-me-photos {
+          img {
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }

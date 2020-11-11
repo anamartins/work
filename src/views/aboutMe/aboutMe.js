@@ -12,11 +12,12 @@ class AboutMe extends React.Component {
     return (
       <div className="about-me">
         <Header />
+        <h1 className="about-me-title">Hello, my name is Ana.</h1>
+
         <div className="wrapper">
           <div className="about-me-left">
-            <h1 className="about-me-title">Hello, my name is Ana.</h1>
-            <div class="about-me-text">
-              <p class="about-me-paragraph">
+            <div className="about-me-text">
+              <p className="about-me-paragraph">
                 I'm Brazilian and I'm 35. I was that kind of kid from the 90s
                 who was always at the computer. Probably that's the reason I've
                 chosen Computer Science as my college degree. Right after I
@@ -33,14 +34,14 @@ class AboutMe extends React.Component {
                 never thought about programming again.
               </p>
 
-              <p class="about-me-paragraph">
+              <p className="about-me-paragraph">
                 But now here I am, studying Javascript and its friends (mostly
                 React and Redux). Sometimes I cannot believe it. I know I'm
                 quite new at this, but I've already had a whole career on
                 Internet companies and I considered myself a fast learner. And I
                 say this as a person who isn't comfortable with self-praising.
               </p>
-              <p class="about-me-paragraph">
+              <p className="about-me-paragraph">
                 When I'm not working or studying, I like knitting. I've learned
                 how to knit when I was a teenager and I love the fact we can
                 build something wearable from scratch. Lately, I am also
@@ -55,7 +56,7 @@ class AboutMe extends React.Component {
                 . I like how easy going he is.{" "}
               </p>
 
-              <p class="about-me-paragraph">
+              <p className="about-me-paragraph">
                 I am really enjoying coding and building things. I am totally
                 obsessed about the possibilities code gives to me. I may sound
                 silly, but I think it's kinda magic. It's like knit a jumper: in
