@@ -1,7 +1,25 @@
 .about-me {
-  width: 60%;
+  width: 100%;
 
   padding: 5%;
+  .wrapper {
+    display: flex;
+    .about-me-left {
+      width: 60%;
+    }
+    .about-me-right {
+      width: 40%;
+      padding-top: 50px;
+      right: 0;
+      position: fixed;
+
+      .about-me-photos {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 
   .about-me-title {
     padding-top: 60px;
