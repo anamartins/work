@@ -61,7 +61,7 @@ class AboutMe extends React.Component {
                 silly, but I think it's kinda magic. It's like knit a jumper: in
                 a moment we have nothing, and after some calculation we have
                 something wearable, usable, useful. I'd like to become a
-                professional frontend developer. I've been making
+                professional frontend developer. I've been making{" "}
                 <a
                   className="about-me-link"
                   href="https://github.com/anamartins"
