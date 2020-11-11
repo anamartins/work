@@ -2,19 +2,37 @@
   margin: 5px;
   width: 100%;
 
-  border: 1px solid transparent;
-  // border-radius: 5px;
-  // padding: 10px;
+  &.on {
+    background-color: transparent;
 
+    cursor: pointer;
+
+    .single-project-content {
+      display: block;
+    }
+  }
+
+  &.soon {
+    background-color: #999;
+    opacity: 0.7;
+    width: 100%;
+    padding: 20px;
+
+    .single-project-name-soon {
+      color: #fff;
+      padding: 5px;
+    }
+  }
+
+  border: 1px solid transparent;
   .single-project-content {
     display: flex;
     text-decoration: none;
 
     .single-project-screen {
       opacity: 0.7;
-      img {
-        width: 1;
-      }
+      width: 1120px;
+
       &:hover {
         opacity: 1;
       }
@@ -23,7 +41,6 @@
     .single-project-info {
       padding: 0px;
       width: 100%;
-      // position: relative;
       .single-project-name {
         z-index: 2;
         color: #fff;
@@ -56,24 +73,18 @@
   }
 }
 
-.on {
-  background-color: transparent;
-
-  cursor: pointer;
-
-  .single-project-content {
-    display: block;
+@media (min-width: 550px) {
+  .single-project {
+    &.soon {
+      width: 1120px;
+    }
   }
 }
 
-.soon {
-  background-color: #999;
-  opacity: 0.7;
-  width: 95%;
-  padding: 20px;
-
-  .single-project-name-soon {
-    color: #fff;
-    padding: 5px;
+@media (min-width: 850px) {
+  .single-project {
+    &.soon {
+      width: 1120px;
+    }
   }
 }
