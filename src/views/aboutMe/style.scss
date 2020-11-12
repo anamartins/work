@@ -1,6 +1,10 @@
 .about-me {
-  width: 100%;
   padding: 2% 4% 2% 2%;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  color: #333;
+
   .wrapper {
     display: flex;
     flex-direction: column-reverse;
@@ -19,13 +23,11 @@
   }
 
   .about-me-title {
-    padding-top: 60px;
-    color: #333;
+    padding-top: 70px;
   }
 
   .about-me-text {
     padding-top: 30px;
-    color: #333;
 
     .about-me-link {
       color: #333;
@@ -63,6 +65,9 @@
         }
       }
     }
+    .about-me-title {
+      padding-top: 60px;
+    }
   }
 }
 
@@ -87,6 +92,9 @@
           }
         }
       }
+    }
+    .about-me-title {
+      padding-top: 60px;
     }
   }
 }

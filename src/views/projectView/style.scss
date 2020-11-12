@@ -1,12 +1,12 @@
 .project {
-  padding: 2%;
+  padding: 2% 4% 2% 2%;
   margin: 0 auto;
   position: relative;
   width: 90%;
   color: #333;
 
   .project-name {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
   .project-stack {
@@ -79,6 +79,10 @@
   .project {
     padding: 2%;
     width: 80%;
+
+    .project-name {
+      padding-top: 50px;
+    }
     .project-stack {
       display: flex;
       padding: 5px 0 30px 0;
@@ -103,6 +107,9 @@
   .project {
     padding: 2%;
     width: 70%;
+    .project-name {
+      padding-top: 50px;
+    }
     .project-stack {
       display: flex;
       padding: 5px 0 30px 0;
