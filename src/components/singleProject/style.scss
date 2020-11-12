@@ -1,6 +1,7 @@
 .single-project {
   margin: 5px;
   width: 100%;
+  border: 1px solid transparent;
 
   &.on {
     background-color: transparent;
@@ -24,7 +25,6 @@
     }
   }
 
-  border: 1px solid transparent;
   .single-project-content {
     display: flex;
     text-decoration: none;
@@ -58,15 +58,15 @@
     }
 
     .single-project-icon {
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
       border: 1px solid #fff;
       border-radius: 100%;
-      margin: 5px 15px 5px 0;
+      margin: 5px 5px 5px 0;
 
       img {
-        width: 50px;
-        margin-left: 3px;
+        width: 40px;
+        margin-left: 1px;
         margin-top: 3px;
       }
     }
@@ -78,6 +78,19 @@
     &.soon {
       width: 1120px;
     }
+
+    .single-project-content {
+      .single-project-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 10px;
+        img {
+          width: 50px;
+          margin-left: 2px;
+          margin-top: 3px;
+        }
+      }
+    }
   }
 }
 
@@ -85,6 +98,19 @@
   .single-project {
     &.soon {
       width: 1120px;
+    }
+
+    .single-project-content {
+      .single-project-icon {
+        width: 60px;
+        height: 60px;
+        margin: 5px 15px 5px 0;
+        img {
+          width: 50px;
+          margin-left: 3px;
+          margin-top: 3px;
+        }
+      }
     }
   }
 }
